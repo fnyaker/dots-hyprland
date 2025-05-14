@@ -28,11 +28,11 @@ const PROVIDERS = Object.assign({
         "name": "Ollama - Llama 3.2",
         "logo_name": "ollama-symbolic",
         "description": getString('Ollama - Llama-3.2'),
-        "base_url": 'http://localhost:11434/v1/chat/completions',
+        "base_url": 'http://176.20.0.3:11434/v1/chat/completions',
         "key_get_url": "",
         "requires_key": false,
         "key_file": "ollama_key.txt",
-        "model": "llama3.2",
+        "model": "llama3.2:3b",
     },
     "openrouter": {
         "name": "OpenRouter (Llama-3-70B)",
